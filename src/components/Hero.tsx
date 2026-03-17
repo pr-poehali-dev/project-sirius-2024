@@ -19,18 +19,20 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/cf9ed0c2-01ef-4f1b-a4f3-6f9ab817eb00/files/843f2471-4537-4054-9820-4dcd80837aa1.jpg"
+          alt="Домик Петра I на берегу Невы"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/40" />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
+        <p className="text-xs md:text-sm uppercase tracking-[0.3em] mb-4 opacity-70">Санкт-Петербург · 1703</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          ДОМИК<br />ПЕТРА I
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Старейшее гражданское здание Петербурга — свидетель рождения великой империи
         </p>
       </div>
     </div>
